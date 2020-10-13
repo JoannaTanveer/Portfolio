@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joanna Tanveer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contact Joanna</title>
+    <link rel="stylesheet" href="style3.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Poller+One&display=swap');
         </style>
@@ -23,7 +23,7 @@
 
     </div>
     <div class = 'header contact'>
-        <h2>Joanna Tanveer</h2></div>
+        <h2>Contact</h2></div>
     <div class = 'navbar'>
         <br>
         <a href ="index.html"> <img class ='centered' src="https://img.icons8.com/ultraviolet/40/000000/code.png"/></a>
@@ -33,9 +33,30 @@
         <a href ="contact.html"><img class ='centered' src="https://img.icons8.com/ultraviolet/40/000000/add-contact-to-company.png"/></a>
     </div>
    
-    <div class = 'area1'>area1</div>
-    <div class = 'area2'>area2</div>
-    <div class = 'area3'>area3</div>
+    <div class = 'area1'>
+        <form action="/action_page.php">
+        <label for="WEmail">Work email</label>
+        <input type="text" id="wmail" name="wemail" placeholder="Your work email...">
+            <br>
+        <label for="fname">Full name</label>
+        <input type="text" id="fname" name= 'fname' placeholder="Full name...">
+        <br>
+        <label for="dropdown">Subject</label>
+        <select id="Subject" name="subject">
+                <option value="Question">Question</option>
+                <option value="Compliment">Compliment</option>
+                <option value="Critique">Critique...be kind, I'm new at this :)</option>
+                <option value="Followup">Follow up needed</option>
+        </select>
+            <br>
+        <label for="message">Message</label>
+        <input type="textarea" id="message" name="message" placeholder="Message...">
+            <br>
+              
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
     <div class = 'footer'>Credit:
         <a href="https://icons8.com/icon/447/linkedin">LinkedIn icon by Icons8</a>
         <a href="https://icons8.com/icon/1669/email">Email icon by Icons8</a>

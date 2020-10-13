@@ -1,0 +1,113 @@
+body {
+    display: grid;
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 200px repeat( 3, 400px) 40px;
+    row-gap: 20px;
+   
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contact {
+    grid-column-start: 1 ;
+    grid-row-start: 1 ;
+    background-color: #D6A4A4;
+    align-items: stretch ;
+    justify-content: center;
+    
+}
+
+.header {
+    display: flex;
+    grid-column: 2/ span 3;
+    grid-row: 1;
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family:'Poller one', cursive;
+    color: #708090;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    grid-column: 5;
+    grid-row: 1;
+    background-color: #DAE2F8;
+    justify-items: center;
+}
+
+.line {
+    background-color: grey;
+    grid-column: span 5;
+}
+input {
+    width: 100%
+
+}
+input[type=submit] {
+    background-color: #D6A4A4;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text], input[type=select] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+select {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #DAE2F8;
+    font-size: 16;
+  }
+
+input[type=textarea] {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+.area1 {
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    justify-content: center;
+    background-color: #8B4513;
+    grid-row: 5 ;
+    grid-column: 1/ span 5;
+    color: grey;
+    opacity: 0.3;
+}
+
+.centered {
+    display: flex;
+    margin: 0 auto;
+    opacity: .5;
+    
+    
+
+}
+
+.centercontact {
+   
+    margin: 0 0 5px 5px ; 
+    
+}
